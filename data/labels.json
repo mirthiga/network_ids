@@ -1,0 +1,54 @@
+{
+  "train": {
+    "pcap": "data/train_benign.pcap",
+    "labels": []
+  },
+  "s1_benign": {
+    "pcap": "data/s1_benign.pcap",
+    "labels": []
+  },
+  "s2_portscan": {
+    "pcap": "data/s2_portscan.pcap",
+    "labels": [
+      {
+        "src": "10.0.0.66",
+        "type": "port_scan",
+        "start": 1700000030.0,
+        "end": 1700000055.6
+      }
+    ]
+  },
+  "s3_dos": {
+    "pcap": "data/s3_dos.pcap",
+    "labels": [
+      {
+        "src": "10.0.0.66",
+        "type": "dos_syn_flood",
+        "start": 1700000030.0,
+        "end": 1700000040.0
+      }
+    ]
+  },
+  "s4_bruteforce": {
+    "pcap": "data/s4_bruteforce.pcap",
+    "labels": [
+      {
+        "src": "10.0.0.66",
+        "type": "ssh_bruteforce",
+        "start": 1700000030.0,
+        "end": 1700000060.0
+      }
+    ]
+  },
+  "s5_ambiguous": {
+    "pcap": "data/s5_ambiguous.pcap",
+    "labels": [
+      {
+        "src": "10.0.0.77",
+        "type": "port_scan",
+        "start": 1700000005.0,
+        "end": 1700000085.0
+      }
+    ]
+  }
+}

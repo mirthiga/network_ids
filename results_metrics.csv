@@ -1,0 +1,7 @@
+scenario,windows,TP,FP,FN,TN,precision,recall,accuracy
+s1_benign,167,0,0,0,167,,,1.0
+s2_portscan,173,7,0,0,166,1.0,1.0,1.0
+s3_dos,175,3,0,0,172,1.0,1.0,1.0
+s4_bruteforce,172,5,1,2,164,0.833,0.714,0.983
+s5_ambiguous,191,17,4,0,170,0.81,1.0,0.979
+ALL,878,32,5,2,839,0.865,0.941,0.992

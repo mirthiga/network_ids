@@ -1,0 +1,29 @@
+{
+  "real_attack": {
+    "pcap": "data\\real_attack_run.pcap",
+    "labels": [
+      {
+        "src": "192.168.56.101",
+        "type": "port_scan",
+        "start": 1792924840.268933,
+        "end": 1792924848.268933
+      },
+      {
+        "src": "192.168.56.101",
+        "type": "dos_syn_flood",
+        "start": 1792924870.268933,
+        "end": 1792924886.268933
+      },
+      {
+        "src": "192.168.56.101",
+        "type": "ssh_bruteforce",
+        "start": 1792924882.268933,
+        "end": 1792924894.268933
+      }
+    ]
+  },
+  "real_benign": {
+    "pcap": "data\\real_benign_train.pcap",
+    "labels": []
+  }
+}

@@ -1,0 +1,4 @@
+scenario,windows,TP,FP,FN,TN,precision,recall,accuracy
+real_attack,5,4,0,1,0,1.0,0.8,0.8
+real_benign,7,0,1,0,6,0.0,,0.857
+ALL,12,4,1,1,6,0.8,0.8,0.833
